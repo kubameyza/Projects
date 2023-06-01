@@ -1,0 +1,42 @@
+:root {
+  font-size: 62.5%;
+
+  /* summary section */
+  --light-red: hsl(0, 100%, 67%);
+  --orangey-yellow: hsl(39, 100%, 56%);
+  --green-teal: hsl(166, 100%, 37%);
+  --cobalt-blue: hsl(234, 85%, 45%);
+
+  /* backgrounds */
+  --light-red-transparent: hsla(0, 100%, 67%, 0.07);
+  --orangey-yellow-transparent: hsl(39, 100%, 56%, 0.07);
+  --green-teal-transparent: hsl(166, 100%, 37%, 0.07);
+  --cobalt-blue-transparent: hsl(234, 85%, 45%, 0.07);
+
+  /* resullt section */
+  --light-slate-blue: hsl(252, 100%, 67%);
+  --light-royal-blue: hsl(241, 81%, 54%);
+  --violet-blue: hsla(256, 72%, 46%, 1);
+  --persian-blue: hsla(241, 72%, 46%, 0);
+  --dark-gray-blue: hsl(241, 100%, 89%);
+  --white: hsl(0, 0%, 100%);
+}
+
+@font-face {
+  font-family: HankenGrotesk;
+  src: url('../assets/fonts/HankenGrotesk-VariableFont_wght.ttf');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1.8rem;
+  font-family: HankenGrotesk, sans-serif;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}

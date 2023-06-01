@@ -1,0 +1,8 @@
+1. Podział stronu na 3 sekcje (header, gallery, description).
+2. Dodanie elementu nav i ul w headerze.
+3. Dodanie favicona i zdjecia w headerze.
+4. Utworzenie sekcji gallery.
+5. Utworzenie sekcji description.
+6. Dodanie nagłówków i paragrafu w sekcji description.
+7. Ustawienie elementów poszczególnych komponentów.
+8. Ostylowanie headera, sekcji gallery i description.

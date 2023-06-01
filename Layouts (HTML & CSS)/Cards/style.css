@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  width: 900px;
+  margin: 50px auto;
+}
+
+.title {
+  font-family: "Big Shoulders Display", cursive;
+  color: hsl(0, 0%, 95%);
+  margin-left: 20px;
+  font-size: 38px;
+}
+
+.text {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin: 30px 20px;
+  line-height: 26px;
+}
+.btn-learn {
+  width: 130px;
+  height: 45px;
+  background-color: hsl(0, 0%, 95%);
+  margin: 82px 0 35px 20px;
+  border: 0;
+  border-radius: 50px;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 600;
+  transition: all 0.15s linear;
+}
+
+.icon {
+  width: 65px;
+}
+
+.btn-sedans {
+  color: hsl(31, 77%, 52%);
+}
+
+.btn-suvs {
+  color: hsl(184, 100%, 22%);
+}
+
+.btn-luxury {
+  color: hsl(179, 100%, 13%);
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.container {
+  padding: 30px 30px 10px 30px;
+}
+
+.icon {
+  margin-left: 20px;
+}
+
+@media (hover: hover) {
+  .btn-sedans:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+  }
+
+  .btn-suvs:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+  }
+
+  .btn-luxury:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: 1px solid hsl(0, 0%, 95%);
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .wrapper {
+    flex-direction: column;
+    max-width: 375px;
+    margin: 0;
+  }
+  .title {
+    font-size: 3em;
+    margin-left: 60px;
+  }
+
+  .text {
+    font-size: 1em;
+    line-height: 32px;
+    margin: 0 60px;
+  }
+
+  .btn-learn {
+    width: 150px;
+    margin: 20px 0 50px 60px;
+  }
+  .container {
+    max-width: 375px;
+    padding: 0;
+  }
+
+  .icon {
+    margin-top: 60px;
+    margin-left: 60px;
+    width: 80px;
+  }
+}

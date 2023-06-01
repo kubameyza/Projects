@@ -1,0 +1,30 @@
+.wrapper {
+  display: grid;
+  width: 50%;
+  height: 500px;
+  min-width: 560px;
+  max-width: 700px;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    'result summary'
+    'result summary';
+  box-shadow: 5px 5px 19px 0px rgba(224, 224, 224, 1);
+  border-radius: 20px;
+}
+
+.result {
+  grid-area: result;
+}
+
+.summary {
+  grid-area: summary;
+}
+
+@media (width < 600px) {
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    box-shadow: none;
+  }
+}

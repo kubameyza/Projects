@@ -1,0 +1,48 @@
+.skills {
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.skill {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+  height: 50px;
+  margin-bottom: 20px;
+  padding: 0 15px;
+}
+
+.skill:nth-child(1) {
+  color: var(--light-red);
+  background-color: var(--light-red-transparent);
+}
+.skill:nth-child(2) {
+  color: var(--orangey-yellow);
+  background-color: var(--orangey-yellow-transparent);
+}
+.skill:nth-child(3) {
+  color: var(--green-teal);
+  background-color: var(--green-teal-transparent);
+}
+.skill:nth-child(4) {
+  color: var(--cobalt-blue);
+  background-color: var(--cobalt-blue-transparent);
+}
+img {
+  width: 25px;
+  margin-right: 10px;
+}
+
+.icon_field {
+  display: flex;
+}
+
+.black_number {
+  color: hsl(224, 30%, 27%);
+}
+
+.gray_number {
+  color: hsla(224, 30%, 27%, 0.4);
+}

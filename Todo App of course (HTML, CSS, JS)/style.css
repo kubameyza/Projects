@@ -1,0 +1,164 @@
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  font-family: 'Kalam', cursive;
+  font-size: 1.8rem;
+  background-color: #e6e6e6;
+}
+
+body.dark_mode {
+  background-color: #2a2437;
+}
+
+main {
+  background-image: url('./images/notebook..png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  min-height: 590px;
+  border-radius: 12px;
+}
+
+main.dark_mode {
+  color: rgb(100, 108, 255);
+  box-shadow: inset 0px 0px 100px 10px rgb(42, 36, 55);
+}
+
+.overlay {
+  background-color: transparent;
+  height: 585px;
+  width: 392px;
+  border-radius: 12px;
+}
+
+.overlay.dark_mode {
+  background-color: #292835;
+}
+
+h1 {
+  margin: 3.4rem auto 0 auto;
+  font-size: 2.6rem;
+  position: relative;
+}
+
+h1.dark_mode {
+  color: rgb(255, 255, 255);
+}
+
+h2 {
+  margin: 3.6rem 0 0 2.5rem;
+  font-weight: 500;
+  font-size: 2.6rem;
+}
+
+.task_input_section {
+  display: flex;
+  width: 85%;
+  justify-content: space-between;
+  margin-left: 2.5rem;
+  position: relative;
+  bottom: 0.7rem;
+}
+
+.task_input {
+  border: none;
+  background-color: transparent;
+  width: 4rem;
+  width: 280px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.task_input::placeholder {
+  color: rgb(228, 219, 219);
+  font-size: 1.8rem;
+  font-family: 'Kalam', cursive;
+}
+
+.task_list {
+  margin-top: 0.4rem;
+  position: relative;
+  bottom: 1rem;
+}
+
+.task {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -0.38rem;
+}
+
+input {
+  font-family: 'Kalam', cursive;
+  font-size: 1.8rem;
+}
+
+.button {
+  font-family: 'Kalam', cursive;
+  background-color: transparent;
+  border: none;
+  font-size: 1.8rem;
+}
+
+.add {
+  color: hsl(133, 86%, 38%);
+}
+
+.add:hover {
+  color: hsl(133, 86%, 80%);
+}
+
+.add.dark_mode {
+  color: #0eb5327f;
+}
+
+.edit {
+  color: hsl(43, 100%, 44%);
+}
+
+.edit:hover {
+  color: hsl(43, 100%, 80%);
+}
+
+.edit.dark_mode {
+  color: #e0a10080;
+}
+
+.delete {
+  color: #f13309;
+}
+
+.delete:hover {
+  color: hsl(11, 93%, 80%);
+}
+
+.delete.dark_mode {
+  color: #f1330980;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.dark_mode_button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.fa-solid.fa-lightbulb {
+  width: 200px;
+}

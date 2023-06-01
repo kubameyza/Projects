@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+}
+
+.attribution a {
+  color: white;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  background-color: hsl(233, 47%, 7%);
+}
+
+main {
+  display: flex;
+  width: 80vw;
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 5px;
+}
+
+.text-section {
+  margin: 50px 0 50px 55px;
+  width: 50%;
+}
+
+.image-section {
+  width: 50%;
+  background-image: url("./images/image-header-desktop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+
+.tint {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(81, 2, 130, 0.551);
+}
+
+h1 {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 2.7vw;
+  margin: 25px 0;
+  color: hsl(0, 0%, 100%);
+  width: 80%;
+}
+
+.accent {
+  color: hsl(277, 64%, 61%);
+}
+
+p {
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 25px;
+  font-size: 1.15vw;
+  padding-right: 40px;
+  color: hsla(0, 0%, 100%, 0.75);
+  width: 85%;
+}
+
+.numbers-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 75px;
+  padding-right: 50px;
+  width: 85%;
+}
+
+.number-and-stat {
+  display: flex;
+  flex-direction: column;
+  color: hsl(0, 0%, 100%);
+}
+
+.number {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 1.8vw;
+}
+
+.stat {
+  font-family: Lexend Deca;
+  font-weight: 400;
+  font-size: 1vw;
+  margin-top: 3px;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    margin: 100px 0;
+  }
+
+  main {
+    flex-direction: column-reverse;
+    width: 88vw;
+  }
+
+  .image-section {
+    background-size: contain;
+    width: 100%;
+    height: 272px;
+  }
+
+  .text-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 0;
+  }
+
+  p {
+    font-size: 0.9em;
+    padding: 0;
+    text-align: center;
+  }
+
+  .numbers-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 20px 0 0 0;
+  }
+
+  .number,
+  .stat {
+    font-size: 1.4em;
+    text-align: center;
+  }
+
+  .stat {
+    font-size: 0.8em;
+    margin-bottom: 30px;
+    margin-top: 5px;
+  }
+}
